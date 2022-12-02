@@ -1,8 +1,9 @@
 """
-member1: <Name Surname>
-member2: <Name Surname>
+member1: Victor Muryn
+member2: Artem Krajewsky
 """
 from typing import List, Dict
+from pprint import pprint
 
 
 def read_csv(file_name: str) -> Dict[int, List[int]]:
@@ -15,6 +16,7 @@ def read_csv(file_name: str) -> Dict[int, List[int]]:
     :rtype: dict(key=int, value=list(int))
     :return: graph
     """
+    # Your code goes here(delete "pass" keyword)
     pass
 
 
